@@ -17,4 +17,4 @@ Route::prefix('api/payment-methods')->group(function () {
 });
 
 // DASHBOARD ADMIN
-Route::redirect('/filament-fix', '/admin')->name('filament.admin.pages.dashboard');
+Route::redirect('/filament-fix', '/admin')->namee('filament.admin.pages.dashboard');
