@@ -13,7 +13,7 @@ Route::prefix('api/payment-methods')->group(function () {
     Route::get('/type/{type}', [PaymentMethodController::class, 'getByType']);
     Route::post('/', [PaymentMethodController::class, 'store']);
     Route::put('/{paymentMethod}', [PaymentMethodController::class, 'update']);
-    Route::delete('/{paymentMethod}', [PaymentMethodController::class, 'destroy']);
+    Route::delete('/{paymentMethod}',  [PaymentMethodController::class, 'destroy']);
 });
 
 // DASHBOARD ADMIN
